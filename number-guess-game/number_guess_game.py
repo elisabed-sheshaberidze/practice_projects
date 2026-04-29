@@ -71,11 +71,11 @@ def award_points(maximum_number):
 def deduct_points(maximum_number):
     deduct = 0
     if maximum_number == 30:
-        deduct = 2
+        deduct = 1
     elif maximum_number == 50:
-        deduct = 3
+        deduct = 2
     elif maximum_number == 100:
-        deduct = 8
+        deduct = 3
     return deduct
 
 # random number. tries=5. MIN_POINT = -20, WINNING_POINT = 100
@@ -153,7 +153,7 @@ def rules(user):
           • You will get points for each correct guess and lose points for each wrong guess.
           • The points you get or lose depend on the difficulty level you choose.
           • Rewards: easy mode +5 points, medium mode +10 points, hard mode +20 points.
-          • Penalties: easy mode -2 points, medium mode -3 points, hard mode -8 points.
+          • Penalties: easy mode -1 points, medium mode -2 points, hard mode -3 points.
 
           note: Type quit to exit the game at any time.
         =======================================================================================
